@@ -1,0 +1,33 @@
+.profile-row {
+    width: fit-content;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    background-color: goldenrod;
+    padding: 10px;
+    img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: right;
+        margin-right: 16px;
+    }
+    small{
+        color: gray;
+    }
+
+    a{
+        font-size: smaller;
+        padding: 5px;
+        background-color: crimson;
+        color: white;
+        border-radius: 3px;
+    }
+}
+
+.name{
+    width: 120px;
+}

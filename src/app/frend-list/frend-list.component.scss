@@ -1,0 +1,36 @@
+.card {
+    padding: 16px;
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+
+.friendrow {
+    display: flex;
+    overflow-x: auto;
+
+}
+
+.friend {
+    img {
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        object-fit: cover;
+        border: 2px solid darkblue;
+    }
+    margin-right: 16px;
+    font-size: small;
+    text-align: center;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+.card{
+    margin-top: 15px;
+    position: relative;
+    min-height: 550px;
+    background-color:  white;
+    width: 400px;
+    border: 1px solid #0000001f;
+    border-radius: 10px;
+    overflow: hidden;
+    
+
+    img{
+        width: 100%;
+    }
+    p{
+       padding-left: 16px;
+       padding-right: 16px;
+       color: brown;
+       font-size: 20px;
+    }
+    button{
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        height: 32px;
+        background-color: white;
+        border: unset;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 2px solid black;
+        &:first-child{
+            left: 0;
+        }
+        &:last-child{
+            right: 0;
+            border-left: 2px solid black;
+        }
+        &:hover{
+            background-color: #0000003d;
+        }
+        mat-icon{
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+    
+}

@@ -1,0 +1,9 @@
+<div class="card friendrow">
+    <div *ngIf="fs.names.length === 0">
+        <h4>Drücke auf Folgen um sie hier zu sehen</h4>
+    </div>
+    <div class="friend" *ngFor="let name of fs.names; let i = index">
+            <img class="rounded-circle" src="{{ fs.images[i]}}" alt="">
+            <p>{{ name }}</p>
+    </div>
+</div>

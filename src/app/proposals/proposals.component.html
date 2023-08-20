@@ -1,0 +1,5 @@
+<app-profile-row [canFollow]="false"></app-profile-row>
+
+<b>Freundschaftvorschläge</b>
+<app-profile-row *ngFor="let i of [0,1,2]" [path]="postImages[i]" [displayname]="names[i]" [username]="AtNames[i]"></app-profile-row>
+

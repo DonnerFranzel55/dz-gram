@@ -1,0 +1,9 @@
+<div class="profile-row">
+    <img src="{{path}}" width="90" alt="">
+    <div class="name">
+         <b>{{ displayname }}</b><br> <small>@{{ username }}</small>
+    </div>
+
+    <a *ngIf="canFollow" (click)="fs.addFriend(displayname, username, path); canFollow=false">Folgen</a>
+   
+</div>
